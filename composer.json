@@ -1,0 +1,20 @@
+{
+    "name": "mrdrozdy/composer-test",
+    "description": "Test",
+    "type": "project",
+    "require": {
+        "psr/log": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mrdrozdy\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mrdrozdy"
+        }
+    ],
+    "minimum-stability": "RC"
+}
